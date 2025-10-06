@@ -30,6 +30,7 @@ To tackle the problem of handwritten phone number recognition, our group propose
 ### Image Segmentation
 
 Image segmentation is an essential step that helps locate the position of the phone number sequence within the image. From the original input image, the segmentation process identifies and isolates each digit in the phone number, enabling more accurate digit recognition in subsequent stages.
+
 ![Image Segmentation Process](img/segm.png)
 
 ### Feature Extraction
@@ -65,3 +66,10 @@ We used **5-fold Cross-Validation** to evaluate model performance.
 
 ## Demo
 ![Demo](img/demo.png)
+
+---
+
+## Contact
+For any questions or feedback, please contact the team via email or open an issue on this GitHub repository.
+
+---
