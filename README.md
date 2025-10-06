@@ -25,10 +25,12 @@ To address this issue, we propose the Phone Number Recognition on Postal Forms t
 ## Methodology
 
 To tackle the problem of handwritten phone number recognition, our group proposes the following approach, as illustrated in the workflow below:
+![Pipeline](img/method.png)
 
 ### Image Segmentation
 
 Image segmentation is an essential step that helps locate the position of the phone number sequence within the image. From the original input image, the segmentation process identifies and isolates each digit in the phone number, enabling more accurate digit recognition in subsequent stages.
+![Image Segmentation Process](img/segm.png)
 
 ### Feature Extraction
 - **Histogram of Oriented Gradients (HOG):** Extracts local features based on pixel gradient orientations.
@@ -62,3 +64,4 @@ We used **5-fold Cross-Validation** to evaluate model performance.
 ---
 
 ## Demo
+![Demo](img/demo.png)
